@@ -1,0 +1,27 @@
+h1{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  border: 2px solid black ;
+  border-radius: 1rem;
+  height: 25rem;
+  width: 25rem;
+  margin-left:27rem ;
+  background-color: aqua;
+}
+
+form, .result, .weight-guide{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.result{
+   margin: 1rem;
+}
+
+.weight-guide{
+  gap: 1px;
+}
